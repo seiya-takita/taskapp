@@ -15,6 +15,7 @@
 		ED3161BD29BAD4B200A50FFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED3161BC29BAD4B200A50FFB /* Assets.xcassets */; };
 		ED3161C029BAD4B200A50FFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3161BE29BAD4B200A50FFB /* LaunchScreen.storyboard */; };
 		ED3161C829BAF2C000A50FFB /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3161C729BAF2C000A50FFB /* InputViewController.swift */; };
+		ED97C12929BB146D00451FE5 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED97C12829BB146D00451FE5 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		ED3161BF29BAD4B200A50FFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED3161C129BAD4B200A50FFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED3161C729BAF2C000A50FFB /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		ED97C12829BB146D00451FE5 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +52,6 @@
 				4A4A36C401657FBEFF043E9A /* Pods-taskapp.debug.xcconfig */,
 				394DD9548985443342979600 /* Pods-taskapp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -76,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				ED3161B329BAD4AE00A50FFB /* AppDelegate.swift */,
+				ED97C12829BB146D00451FE5 /* Task.swift */,
 				ED3161B529BAD4AE00A50FFB /* SceneDelegate.swift */,
 				ED3161B729BAD4AE00A50FFB /* ViewController.swift */,
 				ED3161C729BAF2C000A50FFB /* InputViewController.swift */,
@@ -212,6 +214,7 @@
 			files = (
 				ED3161B829BAD4AE00A50FFB /* ViewController.swift in Sources */,
 				ED3161B429BAD4AE00A50FFB /* AppDelegate.swift in Sources */,
+				ED97C12929BB146D00451FE5 /* Task.swift in Sources */,
 				ED3161B629BAD4AE00A50FFB /* SceneDelegate.swift in Sources */,
 				ED3161C829BAF2C000A50FFB /* InputViewController.swift in Sources */,
 			);
