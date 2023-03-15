@@ -106,13 +106,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     @IBAction func onTouchCategorySearchButton(_ sender: Any) {
-        print(categorySearchTextField.text ?? "nil")
         if (categorySearchTextField.text ?? "").isEmpty {
             taskArray = realm.objects(Task.self).sorted(byKeyPath: "date", ascending: true)
             tableView.reloadData()
             return
         }
-        // TODO: 絞り込み処理
+        
         taskArray = realm.objects(Task.self).filter("category == %@", categorySearchTextField.text!).sorted(byKeyPath: "date", ascending: true)
         
         tableView.reloadData()
